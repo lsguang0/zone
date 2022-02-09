@@ -1,0 +1,29 @@
+// avatar
+.el-popover.el-popper {
+    min-width: 0!important;
+    .button {
+        font-size: 10px;
+        line-height: 1.5;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .button:nth-child(1) {
+        margin-bottom: 5px;
+    }
+}
+
+
+// nav 
+.nav-menu {
+    background-color: #21241D;
+    .el-menu {
+        min-width: 0!important;
+    }
+    .el-sub-menu__hide-arrow {
+        display: none;
+    }
+}
+.el-popper.is-light.nav-menu.is-pure {
+    border-width: 0;
+}
