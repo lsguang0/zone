@@ -270,8 +270,8 @@ function initScene () {
 
     // app.control = new OrbitControls(app.camera, app.renderer.domElement);
 
-    // const ambientlight = new THREE.AmbientLight( 0x6688cc );
-    // app.scene.add( ambientlight );
+    const ambientlight = new THREE.AmbientLight( 0x6688cc );
+    app.scene.add( ambientlight );
     
     // const fillLight1 = new THREE.DirectionalLight( 0xff9999, 0.5 );
     // fillLight1.position.set( - 1, 1, 2 );
